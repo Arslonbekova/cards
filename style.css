@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+.img{
+    width: 350px;
+    height: 200px;
+    background-image: url(img/Rectangle\ 3.png);
+    background-position: center;
+    background-size: 100;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    
+}
+.cards{
+    margin: 0 auto;
+    max-width: 1260px;
+    display: flex;
+    gap: 20px;
+}
+.card{
+width: 400px;
+height: 450px;
+border-radius: 30px;
+background: #FBFBFB;
+box-shadow: 16px 16px 35px 0px rgba(0, 0, 0, 0.09);
+padding: 30px 25px;
+position: relative;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+}
+.icon-box i{
+color: #FC545E;
+opacity: 0.9100000262260437;
+}
+.b i{
+  color: #66C1A6;;  
+}
+.icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background: #FBFBFB;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.text{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #42445D;
+
+}
+.text h4{
+font-size: 18px;
+font-weight: 500;
+margin-bottom: 5px;
+opacity: 0.9;
+}
+.text p{
+width: 333px;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+opacity: 0.7;
+}
+input{
+padding: 10px;
+width: 275px;
+height: 50px;
+border-radius: 10px;
+border:1px #D9D9D9 solid;
+color: #42445D;
+font-size: 18px;
+font-weight: 300;
+}
+button{
+width: 60px;
+height: 50px;
+border-radius: 10px;
+background-color: #644DEA;
+border: none;
+}
+button>i{
+    font-size: 20px;
+    color: #FBFBFB;
+}
+.Black{
+    background: #232224;
+    color: #FBFBFB;
+}
+.Black .icon-box{
+    background: #373737;
+}
+.Black input{
+    background: #373737;
+    border: none;
+    color: #FBFBFB;
+}
+.Black .text{
+color: #FBFBFB;
+}
+.Dark{
+    background: #232639;
+    color: #FBFBFB;
+}
+.Dark .icon-box{
+    background: #42445D;
+}
+.Dark input{
+    background: #42445D;
+    border: none;
+    color: #FBFBFB;
+}
+.Dark .text{
+color: #FBFBFB;
+}
